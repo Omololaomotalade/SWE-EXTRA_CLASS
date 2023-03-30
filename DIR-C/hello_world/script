@@ -1,2 +1,5 @@
-#!/bin/python3
-print("hello world")
+#!/bin/bash
+pwd
+touch Lola_file bash_exp
+echo "You can do this Lola" > Lola_file
+
