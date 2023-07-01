@@ -1,0 +1,10 @@
+/*
+1. Declare a variable that houses each of the names and ages of the siblings in one index
+
+For exmaple, if I do console.log(infoOfSiblings[1]), it should print the name and age of the
+first sibling
+
+2. Explain and demonstrate any 10 JavaScript array methods
+
+3. Create an immutable object, i.e, an object whose property cannot be changed
+*/
