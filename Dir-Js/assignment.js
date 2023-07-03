@@ -11,15 +11,25 @@ first sibling
 */
 
 let namesAge = [
-  ["Lola", 12],
-  ["Seun", 11],
-  ["Dara", 9],
-];
-// Declaring an  array
-let namesAge2 = [["Joy", 18]];
+  {
+    name: "Lola",
+    age: 12,
+  },
+  {
+    name: "Seun",
+    age: 11,
+  },
 
+  { name: "Dara", age: 9 },
+];
+// 1. Declaring an  array
+let namesAge2 = {
+  name: "Jola",
+  age: 18,
+};
 console.log(namesAge[0]);
 
+// 2.Array Methods
 //string
 let stringName = namesAge.toString();
 console.log(stringName);
@@ -46,6 +56,7 @@ let slice = namesCopy.slice(1, 3);
 
 console.log(slice);
 
+// 3. Immutable
 Object.freeze(slice);
 console.log(slice);
 let slicew = namesCopy.slice(1, 3);
