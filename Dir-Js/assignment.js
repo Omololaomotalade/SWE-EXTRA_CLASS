@@ -61,3 +61,10 @@ Object.freeze(slice);
 console.log(slice);
 let slicew = namesCopy.slice(1, 3);
 console.log(slicew);
+
+// Write a function that takes variable numbers and add them
+function addNumber(a, b) {
+  console.log(a + b);
+}
+
+addNumber(5, 4);
