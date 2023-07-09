@@ -25,4 +25,5 @@ const book = {
 console.log("Author's name:", book.author.name);
 
 //Class Exercise
-//Destructure the book title and the name and qualification of the author
+//1. Destructure the book title and the name and qualification of the author in the object 'book'
+//2. Destructure the nested array at index 5 in 'complexArray'
