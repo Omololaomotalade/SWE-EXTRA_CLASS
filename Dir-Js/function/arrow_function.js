@@ -27,5 +27,19 @@ console.log(rValue);
 
 //arrow function: anonymous as well and must either be called back,  or saved in a variable, or used
 //as a function's argument or used as a function's return value
-console.log(((x, y) => x + y)(12, 8));
+(x, y) => x + y; //arrow function defined
+((x, y) => x + y)(12, 8); //callback arrow function
 
+console.log(((x, y) => x + y)(12, 8)); //logging out the result on the console
+
+const add = (x, y) => x + y; //saving it in a variable that becomes the function
+console.log(add(3, 2));
+
+
+// having more than one instruction in an arrow function
+const greetLola = () => {
+    const name = 'Lola';
+    console.log(`Hello ${name}! Welcome to class.`);
+}
+
+greetLola();
